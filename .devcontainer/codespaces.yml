@@ -3,9 +3,9 @@ services:
     container_name: qemu
     image: ghcr.io/qemus/qemu
     environment:
-      RAM_SIZE: "8"
-      DISK_SIZE: "64"
-      CPU_CORES: "2"
+      RAM_SIZE: "16"
+      DISK_SIZE: "100"
+      CPU_CORES: "4"
       AUDIO: "Y"
     devices:
       - /dev/kvm
